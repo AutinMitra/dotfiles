@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/autinmitra/.oh-my-zsh"
+export ZSH="/Users/autinmitra/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -68,16 +68,18 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git zsh-nvm zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
-export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/scripts
+export PATH=$PATH:~/Library/Android/sdk/platform-tools
 export PATH=$PATH:~/flutter/bin
-export PATH=$PATH:~/Android/Sdk/platform-tools
+export PATH=$PATH:~/Library/Python/3.7/bin
+
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
