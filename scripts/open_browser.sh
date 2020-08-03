@@ -1,2 +1,3 @@
 #!/bin/bash
-open -na "Firefox"
+open -na "Firefox Nightly"
+
